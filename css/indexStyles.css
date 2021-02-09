@@ -1,0 +1,180 @@
+body,html{
+  margin:0;
+}
+
+
+
+#particles-js {
+
+position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -10;
+}
+
+.dot{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid white;
+}
+
+#black-dot{
+ background-color:black;
+
+}
+
+#red-dot{
+  background-color:#441921;
+
+}
+#light-dot{
+ background-color:#c6ecd4;
+
+}
+#green-dot{
+  background-color:darkgreen;
+
+}
+#white-dot{
+
+  background-color:white;
+}
+
+#personalize-heading{
+  color : white;
+}
+
+#mainTitleArea{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  grid-area: text;
+
+
+}
+
+#main-image-area{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  grid-area:image;
+
+}
+
+#mainTitle{
+  font-size : 16vh;
+  color : white;
+
+}
+
+#particle-js-area{
+  display: grid;
+  grid-template-areas:'text image' 'text image''text image''text image''text image''text image''text image' 'text image' 'text image' 'text image' 'pointer pointer';
+  grid-gap:5px;
+
+
+}
+#pointer-area{
+  grid-area:pointer;
+
+  text-align:center;
+}
+#go-down-pointer{
+  color : white;
+  font-size : 11vh;
+  position:absolute;
+  bottom:0;
+}
+#personalize-your-theme{
+  color : white;
+}
+
+
+#aryamann-image{
+  margin:20px;
+  border-radius: 100%;
+  height:400px;
+  width:400px;
+}
+
+#social-media-section{
+  text-align:center;
+}
+
+.s-handle{
+  font-size:50px;
+  margin:20px;
+
+}
+#facebook-icon{
+
+  color : #195dee;
+}
+#linkedin-icon{
+  color:white;
+}
+#instagram-icon{
+  color:deeppink;
+}
+#github-icon{
+  color:white;
+}
+#aryamann-description{
+
+  height:900px;
+
+
+
+  display: grid;
+  grid-template-areas:
+
+    'about technical'
+    'about technical'
+    'about technical'
+    'about technical'
+  'about non-technical'
+  'about non-technical'
+  'about non-technical'
+  'about non-technical';
+
+  grid-gap: 50px;
+  padding:50px;
+
+
+}
+#technical-section{
+  grid-area:technical;
+
+}
+
+#non-technical-section{
+  grid-area:non-technical;
+
+
+}
+#about-section{
+  grid-area: about;
+
+}
+#about-section >h1{
+  font-size: 10vh;
+}
+
+
+#section-separator{
+
+  margin:0;
+  padding:0;
+}
+.box-styling{
+  text-align: center;
+  }
+
+
