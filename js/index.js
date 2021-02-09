@@ -14,11 +14,11 @@ document.getElementById('particle-js-area').style.height = `${window.innerHeight
 
 
 function loadMode(mode){
-    const pageToLoad = '../json/particlejs-config(' + mode + ').json';
+    const pageToLoad = './json/particlejs-config(' + mode + ').json';
     localStorage.setItem('theme',mode);
     currentTheme = mode;
     document.body.style.backgroundColor = colors[mode];
-   document.getElementById('secondary-stylesheet').href=`../css/indexStyles(${mode}).css`
+   document.getElementById('secondary-stylesheet').href=`./css/indexStyles(${mode}).css`
 
 
     particlesJS.load('particles-js',pageToLoad,()=>{
