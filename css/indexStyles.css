@@ -28,19 +28,7 @@ html{
   margin:0 1rem;
   font-size:24px;
 }
-@keyframes give-padding-navbar {
-  0% {}
-  100% {
-    padding:5px;
-  }
-}
-@keyframes remove-padding-navbar {
-  0% {
-  }
-  100% {
-    padding: 0px;
-  }
-}
+
 .navbar-styling{
   animation : remove-padding-navbar;
   animation-iteration-count:1;
@@ -51,11 +39,8 @@ html{
 
 
 .navbar-styling:hover{
-  animation:give-padding-navbar;
-  animation-iteration-count: 1;
-  animation-duration: 200ms;
-  animation-fill-mode: forwards;
 
+  transition:0.4s;
 
 }
 
